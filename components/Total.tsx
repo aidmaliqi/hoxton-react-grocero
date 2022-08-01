@@ -11,7 +11,7 @@ export function Total({ total }: Prop) {
       </div>
 
       <div>
-        <span className="total-number">{total}</span>
+        <span className="total-number">{total.toFixed(2)}</span>
       </div>
     </div>
   );
